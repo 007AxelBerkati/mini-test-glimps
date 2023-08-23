@@ -12,8 +12,6 @@ const getWeather = async () => {
         data.list.filter((item) => item.dt_txt.includes('12:00:00'))
       );
 
-    console.log(data);
-
     console.log('Weather Forecast :');
 
     data?.forEach((item) => {
